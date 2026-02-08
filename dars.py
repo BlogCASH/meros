@@ -186,6 +186,57 @@
 # kitoblar = kitob(110 , 10 , "O'tkan kunlar" )
 # print(dars.get_info())
 # 13-misol
+# class hayvon:
+#     def ovoz(self):
+#         return f"Mushuk ovozi : "
+# class mushuk(hayvon):
+#     def 
+    
+
+# 14-misol
+# class Qurulma : 
+#     def __init__(self , tok , prasesor  ):
+#         self.tok = tok 
+#         self.prasesor = prasesor
+#     def info(self):
+#        return f"Batarekali / Kabelli : {self.tok}\n Prasesor Bor/Yo'q : {self.prasesor}" 
+# class telefon(Qurulma):
+#     def __init__(self, tok, prasesor , ekran , tugma , kamera , diktafon , rang ):
+#         self.ekran = ekran
+#         self.tugma = tugma 
+#         self.kamera = kamera
+#         self.diktafon = diktafon
+#         self.rang = rang
+#         super().__init__(tok, prasesor)
+#     def malumot(self):
+#         return f"Ekran hajmi : {self.ekran}\n Tugma borligi : {self.tugma}\n Kamera mp : {self.kamera}\n Diktafon ishlashi : {self.diktafon}\n Telefon rangi : {self.rang}\n Tok olish turi : {self.tok}\n Prasesor Bor/Yo'q : {self.prasesor}"
+# class kampyuter(Qurulma):
+#     def __init__(self, tok, prasesor , Usb ):
+#         self.usb = Usb
+#         super().__init__(tok, prasesor)
+#     def get_info(self):
+#         return f"Usb port bor/yo'q : {self.usb}\n Prasesor bor/yo'q : {self.prasesor} Tok olish turi : {self.tok}"
+# Notebook=kampyuter("usb bor" , "prasesor bor" , "Batarekali")
+# smartfon = telefon( 720 , "Yoqish tugmasi bor" , 48 , "Diktafon bor" , "ko'k" , "zaryadka orqali" , "prasesor bor")
+# Qurilma1 = Qurulma("220 w" , "Prasesor bor")
+# print(smartfon.malumot())
+# 15-misol
+# class kampaniya :
+#     def __init__(self , ishchi_nomi , lavozimi , ish_vaqti , oylik_maoshi):
+#         self.nomi = ishchi_nomi
+#         self.lavozim = lavozimi
+#         self.vaqt = ish_vaqti
+#         self.maosh = oylik_maoshi
+# class ishchi(kampaniya):
+#     def __init__(self, ishchi_nomi, lavozimi, ish_vaqti, oylik_maoshi , diplom , tajribasi):
+#         self.diplom = diplom
+#         self.tajriba = tajribasi
+#         super().__init__(ishchi_nomi, lavozimi, ish_vaqti, oylik_maoshi)
+#     def info(self):
+#         return f"Ishchi nomi : {self.nomi}\n Ish lovozimi : {self.lavozim}\n Ish vaqti : {self.vaqt}\n Oylik maoshi : {self.maosh}\n Diplom sohasi : {self.diplom}\n Tajribasi : {self.tajriba}"
+# ish = ishchi("Elbek" , "Raxbar" , "9:00 dan 18:00 gacha" , "5000$" , "Axborot texnalogiyalar" , "2-yil")
+# print(ish.info())
+# 16-misol
 
 
     
