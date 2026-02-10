@@ -237,6 +237,80 @@
 # ish = ishchi("Elbek" , "Raxbar" , "9:00 dan 18:00 gacha" , "5000$" , "Axborot texnalogiyalar" , "2-yil")
 # print(ish.info())
 # 16-misol
-
-
+# 17-misol
+# class transport:
+#     def __init__(self , rang , km , yil , holati , kraska , sigim , tezlik):
+#         self.rang = rang
+#         self.km =km
+#         self.yil = yil
+#         self.holat = holati
+#         self.kraska = kraska
+#         self.sigim = sigim 
+#         self.tez =tezlik
+# class autobus(transport):
+#     def __init__(self, rang, km, yil, holati, kraska, sigim, tezlik , sideniya):
+#         self.sideniya = sideniya
+#         super().__init__(rang, km, yil, holati, kraska, sigim, tezlik)
+#     def get_info(self):
+#         return f"Auftobus rangi : {self.rang}\n Autobus bosgan masofasi : {self.km}\n Autobus ishlab chiqarilgan yili : {self.yil}\n Autobus holati : {self.holat}\n Autobusda kraska bor/yo'q : {self.kraska}\n Autobus odam sig'imi : {self.sigim}\n Odam olib borish tezligi : {self.tez}\n O'tirgichlar soni : {self.sideniya}"
+# class poyezd(autobus):
+#     def __init__(self, rang, km, yil, holati, kraska, sigim, tezlik, sideniya , kapinka_soni):
+#         super().__init__(rang, km, yil, holati, kraska, sigim, tezlik, sideniya)
+#         self.kapinka = kapinka_soni
+#     def info(self):
+#          return f"Poyezd rangi : {self.rang}\n Poyezd bosgan masofasi : {self.km}\n Poyezd ishlab chiqarilgan yili : {self.yil}\n Poyezd holati : {self.holat}\n Poyezd kraska bor/yo'q : {self.kraska}\n Poyezd odam sig'imi : {self.sigim}\n Odam olib borish tezligi : {self.tez}\n O'tirgichlar soni : {self.sideniya}\n Yotib borish honalar soni : {self.kapinka}"
+# poyezd1 = poyezd("ko'k , oq , yashil" , "500 ming km" , "2015-yil" , "O'rta" , "Yo'q" , 150 , "12 soat" , 150 , 100 )       
+# print(poyezd1.info())
     
+# 18-misol
+# class shaxs :
+#     def __init__(self , ism , familya , yosh , pasport):
+#         self.ism = ism
+#         self.familya = familya
+#         self.yosh = yosh 
+#         self.pasport =pasport
+# class talaba(shaxs):
+#     def __init__(self, ism, familya, yosh, pasport , oqish_joyi , fan , oqish_turi):
+#         self.oqish_turi = oqish_turi
+#         self.fan = fan
+#         self.oqish = oqish_joyi
+#         super().__init__(ism, familya, yosh, pasport)
+# class oqtuvchi(shaxs):
+#     def __init__(self, ism, familya, yosh, pasport , diplom ):
+#         self.diplom = diplom
+#         super().__init__(ism, familya, yosh, pasport)
+#     def info(self):
+#         return f"Ism : {self.ism}\n familya : {self.familya}\n yosh : {self.yosh}\n shaxsini  tastiqlovchi hujjat : {self.pasport}\n Diplom : {self.diplom}"
+# oqtuvchi1 = oqtuvchi("Sulaymon" , "Axmedov" , 16 , "Guvohnoma" , "Bakalavur")
+# print(oqtuvchi1.info())
+# 19-misol
+# class mahsulot:
+#     def __init__(self , nomi , narxi , turi):
+#         self.nom = nomi
+#         self.narxi =narxi
+#         self.turi = turi
+# class meva(mahsulot):
+#     def __init__(self, nomi, narxi, turi ,rangi):
+#         self.rang = rangi
+#         super().__init__(nomi, narxi, turi)
+#     def info(self):
+#         return f"Nomi : {self.nom}\n Narxi : {self.narxi}\n Turi : {self.turi}\n Rangi : {self.rang}"
+# savdo = meva("olma" , 20 , "5 barmoq" , "Qizil")
+# print(savdo.info())
+# 20-misol
+# class bino:
+#     def __init__(self , ):
+# 21-misol
+class kitob:
+    def __init__(self , nomi , mavzusi , ):
+        self.nom = nomi
+        self.mavzusi =mavzusi
+        self.turi = turi
+class meva(kitob):
+    def __init__(self, nomi, narxi, turi ,rangi):
+        self.rang = rangi
+        super().__init__(nomi, narxi, turi)
+    def info(self):
+        return f"Nomi : {self.nom}\n Narxi : {self.narxi}\n Turi : {self.turi}\n Rangi : {self.rang}"
+savdo = meva("olma" , 20 , "5 barmoq" , "Qizil")
+print(savdo.info())
