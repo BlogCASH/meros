@@ -315,16 +315,24 @@
 # savdo = meva("olma" , 20 , "5 barmoq" , "Qizil")
 # print(savdo.info())
 # 23-misol
-class mashina :
-    def __init__(self , rang , mator):
-        self.rang = rang
-        self.mator = mator 
-class elektomabil(mashina):
-    def __init__(self, rang, mator , zaryadka):
-        self.zaryad = zaryadka
-        super().__init__(rang, mator)
-    def info(self):
-        return f"mashina rangi : {self.rang}\n mashina mator hajmi : {self.mator}\n zaryadka necha km ga yetadi : {self.zaryad}"
-auto = elektomabil("Qora" , 3 , 17.000)
-print(auto.info())
+# class mashina :
+#     def __init__(self , rang , mator):
+#         self.rang = rang
+#         self.mator = mator 
+# class elektomabil(mashina):
+#     def __init__(self, rang, mator , zaryadka):
+#         self.zaryad = zaryadka
+#         super().__init__(rang, mator)
+#     def info(self):
+#         return f"mashina rangi : {self.rang}\n mashina mator hajmi : {self.mator}\n zaryadka necha km ga yetadi : {self.zaryad}"
+# auto = elektomabil("Qora" , 3 , 17.000)
+# print(auto.info())
+# 26-misol
+class maktab : 
+    def __init__(self , manzil , nomi):
+        self.manzil = manzil
+        self.nomi = nomi 
+class sinf (maktab):
+    def __init__(self, manzil, nomi , xona_soni):
+        super().__init__(manzil, nomi)
         
