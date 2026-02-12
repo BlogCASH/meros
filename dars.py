@@ -300,17 +300,31 @@
 # 20-misol
 # class bino:
 #     def __init__(self , ):
-# 21-misol
-class kitob:
-    def __init__(self , nomi , mavzusi , ):
-        self.nom = nomi
-        self.mavzusi =mavzusi
-        self.turi = turi
-class meva(kitob):
-    def __init__(self, nomi, narxi, turi ,rangi):
-        self.rang = rangi
-        super().__init__(nomi, narxi, turi)
+# 22-misol
+# class kitob:
+#     def __init__(self , nomi , mavzusi , ):
+#         self.nom = nomi
+#         self.mavzusi =mavzusi
+#         self.turi = turi
+# class meva(kitob):
+#     def __init__(self, nomi, narxi, turi ,rangi):
+#         self.rang = rangi
+#         super().__init__(nomi, narxi, turi)
+#     def info(self):
+#         return f"Nomi : {self.nom}\n Narxi : {self.narxi}\n Turi : {self.turi}\n Rangi : {self.rang}"
+# savdo = meva("olma" , 20 , "5 barmoq" , "Qizil")
+# print(savdo.info())
+# 23-misol
+class mashina :
+    def __init__(self , rang , mator):
+        self.rang = rang
+        self.mator = mator 
+class elektomabil(mashina):
+    def __init__(self, rang, mator , zaryadka):
+        self.zaryad = zaryadka
+        super().__init__(rang, mator)
     def info(self):
-        return f"Nomi : {self.nom}\n Narxi : {self.narxi}\n Turi : {self.turi}\n Rangi : {self.rang}"
-savdo = meva("olma" , 20 , "5 barmoq" , "Qizil")
-print(savdo.info())
+        return f"mashina rangi : {self.rang}\n mashina mator hajmi : {self.mator}\n zaryadka necha km ga yetadi : {self.zaryad}"
+auto = elektomabil("Qora" , 3 , 17.000)
+print(auto.info())
+        
