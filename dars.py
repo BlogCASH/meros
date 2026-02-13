@@ -328,11 +328,15 @@
 # auto = elektomabil("Qora" , 3 , 17.000)
 # print(auto.info())
 # 26-misol
-class maktab : 
-    def __init__(self , manzil , nomi):
-        self.manzil = manzil
-        self.nomi = nomi 
-class sinf (maktab):
-    def __init__(self, manzil, nomi , xona_soni):
-        super().__init__(manzil, nomi)
-        
+# class maktab : 
+#     def __init__(self , manzil , nomi):
+#         self.manzil = manzil
+#         self.nomi = nomi 
+# class sinf (maktab):
+#     def __init__(self, manzil, nomi , xona_soni):
+#         super().__init__(manzil, nomi)
+#         self.xona = xona_soni
+#     def info(self):
+#         return f"maktab manzili : {self.manzil}\n maktab nomi : {self.nomi}\n sinf soni : {self.xona}"
+# school = sinf("50 metrlik" , "20-maktab" , 60)
+# print(school.info())
