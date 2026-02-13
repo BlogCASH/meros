@@ -340,3 +340,15 @@
 #         return f"maktab manzili : {self.manzil}\n maktab nomi : {self.nomi}\n sinf soni : {self.xona}"
 # school = sinf("50 metrlik" , "20-maktab" , 60)
 # print(school.info())
+# 27-misol
+class mers :
+    def __init__(self , autopilot ):
+        self.pilot = autopilot
+class chevrolet(mers):
+    def __init__(self, autopilot , mator):
+        self.mator = mator
+        super().__init__(autopilot)
+    def info(self):
+        return f"autopilot : {self.pilot}\n mator turi : {self.mator}"
+auto = chevrolet("bor", "v8 turbosiz")
+print(auto.info())
