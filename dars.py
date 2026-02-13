@@ -341,14 +341,35 @@
 # school = sinf("50 metrlik" , "20-maktab" , 60)
 # print(school.info())
 # 27-misol
-class mers :
-    def __init__(self , autopilot ):
-        self.pilot = autopilot
-class chevrolet(mers):
-    def __init__(self, autopilot , mator):
-        self.mator = mator
-        super().__init__(autopilot)
-    def info(self):
-        return f"autopilot : {self.pilot}\n mator turi : {self.mator}"
-auto = chevrolet("bor", "v8 turbosiz")
-print(auto.info())
+# class mers :
+#     def __init__(self , autopilot ):
+#         self.pilot = autopilot
+# class chevrolet(mers):
+#     def __init__(self, autopilot , mator):
+#         self.mator = mator
+#         super().__init__(autopilot)
+#     def info(self):
+#         return f"autopilot : {self.pilot}\n mator turi : {self.mator}"
+# auto = chevrolet("bor", "v8 turbosiz")
+# print(auto.info())
+# 28-MISOL
+# class texnika :
+#     def __init__(self , tok):
+#         self.tok = tok 
+# class skaner(texnika):
+#     def __init__(self, tok , kamera , prasesor):
+#         self.kamera = kamera
+#         self.prasesor = prasesor
+#         super().__init__(tok)
+#     def get_info(self):
+#         return f"Tok olish kuchi : {self.tok}w\n Kamera sifati : {self.kamera}K\n Prasesor bor/yo'q : {self.prasesor}"
+# class printer(texnika):
+#     def __init__(self, tok , kamera , kraska):
+#         self.kamera = kamera
+#         self.kraska = kraska
+#         super().__init__(tok)
+#     def info(self):
+#         return f"Tok olish kuchi : {self.tok}w\n Kamera sifati : {self.kamera}K\n Kraska soni : {self.kraska} ta"
+# printer1 = printer(220 ,4 , 5)
+# scaner = skaner(220 , 4 , "Bor")
+# print(printer1.info() , scaner.get_info())
