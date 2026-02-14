@@ -414,3 +414,17 @@
 #         return f"Odam sig'imi : {self.sigim}\n Kuzuf turi : {self.tur}\n Tezliki : {self.tezlik}\n Mator kuchi : {self.mator}"
 # auto = nexia2(4 , "sedan" , 200 , 1.6)
 # print(auto.info())
+# 34-misol
+# class dokon : 
+#     def __init__(self , nomi , turi , manzil):
+#         self.nom = nomi
+#         self.tur = turi 
+#         self.manzil = manzil
+# class cafe(dokon):
+#     def __init__(self, nomi, turi, manzil , ishchi):
+#         self.ishchi =ishchi
+#         super().__init__(nomi, turi, manzil)
+#     def info (self):
+#         return f" Nomi : {self.nom}\n Sotuv turi : {self.tur}\n Manzil : {self.manzil}\n Ishchi soni : {self.ishchi}"
+# savdo =cafe ("MAXSEED" , "Yegulik" , "IT PARK", 20)
+# print(savdo.info())
