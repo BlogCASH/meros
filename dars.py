@@ -428,3 +428,14 @@
 #         return f" Nomi : {self.nom}\n Sotuv turi : {self.tur}\n Manzil : {self.manzil}\n Ishchi soni : {self.ishchi}"
 # savdo =cafe ("MAXSEED" , "Yegulik" , "IT PARK", 20)
 # print(savdo.info())
+# 35-misol
+# class hayvon :
+#     def __init__(self , nomi , rang):
+#         self.nom = nomi
+#         self.rang = rang
+# class mushuk (hayvon):
+#     def __init__(self, nomi, rang , yung):
+#         self.yung = yung
+#         super().__init__(nomi, rang)
+#     def info(self):
+#         return f"Mushuk nomi : {}"
