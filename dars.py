@@ -373,3 +373,18 @@
 # printer1 = printer(220 ,4 , 5)
 # scaner = skaner(220 , 4 , "Bor")
 # print(printer1.info() , scaner.get_info())
+# 29-misol
+# class sportchi :
+#     def __init__(self , sport_turi , vaxti ):
+#         self.turi = sport_turi
+#         self.vaxt = vaxti
+# class futbolchi(sportchi):
+#     def __init__(self, sport_turi, vaxti , formasi , team):
+#         self.team = team
+#         self.forma = formasi
+#         super().__init__(sport_turi, vaxti)
+#     def info (self):
+#         return f"Sport turi : {self.turi}\n Trenirovka vaqti : {self.vaxt}S\n formasi : {self.forma}\n jamoasi soni : {self.team}ta"
+# sport = futbolchi("Futbol" , "1:30" , "butsi , shortik , futbolka" , 12 )
+# print(sport.info())
+# 30-misol
