@@ -400,3 +400,17 @@
 #         return f"Ismi : {self.ism}\n Yoshi : {self.yosh}\n Nechanchi kurs : {self.kurs}"
 # universitet = talaba("Sulaymon" , 16 , 4)
 # print(universitet.info())
+# 31-misol
+# class damas : 
+#     def __init__(self , sigim , turi , tezlik):
+#         self.sigim = sigim
+#         self.tur = turi 
+#         self.tezlik = tezlik
+# class nexia2(damas):
+#     def __init__(self, sigim, turi, tezlik , mator):
+#         self.mator = mator
+#         super().__init__(sigim, turi, tezlik)
+#     def info (self):
+#         return f"Odam sig'imi : {self.sigim}\n Kuzuf turi : {self.tur}\n Tezliki : {self.tezlik}\n Mator kuchi : {self.mator}"
+# auto = nexia2(4 , "sedan" , 200 , 1.6)
+# print(auto.info())

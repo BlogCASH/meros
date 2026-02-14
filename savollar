@@ -28,7 +28,7 @@
 # 27. Avto klassidan Mercedes, Chevrolet klasslarini meros oling.
 # 28. Texnika klassidan Printer va Skanner klasslarini meros oling.
 # 29. Sportchi klassidan Futbolchi klassini meros oling.
- 30. Student klassidan Talaba klassini meros oling, yangi atribut qo‘shing.
+;  30. Student klassidan Talaba klassini meros oling, yangi atribut qo‘shing.
  31. Ota klassdagi atributni bola klassda o‘zgartiring.
  32. Ota klass metodini bola klassda yangicha natija bilan qayta yozing.
  33. Bir nechta klasslardan meros oluvchi klass yarating (Multiple Inheritance).
