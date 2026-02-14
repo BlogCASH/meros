@@ -388,3 +388,15 @@
 # sport = futbolchi("Futbol" , "1:30" , "butsi , shortik , futbolka" , 12 )
 # print(sport.info())
 # 30-misol
+# class student : 
+#     def __init__(self , ismi , yosh , kursi):
+#         self.ism = ismi
+#         self.yosh = yosh 
+#         self.kurs = kursi
+# class talaba(student):
+#     def __init__(self, ismi, yosh, kursi):
+#         super().__init__(ismi, yosh, kursi)
+#     def info (self):
+#         return f"Ismi : {self.ism}\n Yoshi : {self.yosh}\n Nechanchi kurs : {self.kurs}"
+# universitet = talaba("Sulaymon" , 16 , 4)
+# print(universitet.info())
