@@ -33,7 +33,7 @@
  32. Ota klass metodini bola klassda yangicha natija bilan qayta yozing.
  33. Bir nechta klasslardan meros oluvchi klass yarating (Multiple Inheritance).
 ;  34. Ota klassdagi init metodini super() yordamida chaqiring.
- 35. Hayvon klassidan mushuk va baliq klasslarini meros oling.
+;  35. Hayvon klassidan mushuk va baliq klasslarini meros oling.
  36. Kompaniya klassidan ITKompaniya klassini meros oling.
  37. Maxsulot klassidan Ichimlik klassini meros oling.
  38. Uskuna klassidan Televizor klassini meros oling.

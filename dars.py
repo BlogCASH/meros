@@ -438,4 +438,20 @@
 #         self.yung = yung
 #         super().__init__(nomi, rang)
 #     def info(self):
-#         return f"Mushuk nomi : {}"
+#         return f"Mushuk nomi : {self.nom}\n Mushuk ranggi : {self.rang}\n Mushuk yunggi : {self}"
+# mushuk1 = mushuk("mosh" , "Qorali oq" , "uzun")
+# print(mushuk1.info())
+# 36-misol
+# class kampaniya : 
+#     def __init__(self, ishchi):
+#         self.ishchi = ishchi
+# class Itkampaniya (kampaniya):
+#     def __init__(self, ishchi , kamyuter):
+#         self.kampyuter = kamyuter
+#         super().__init__(ishchi)
+#     def info(self):
+#         return f"ishchilar soni : {self.ishchi}\n Kampyuter soni : {self.ishchi}"
+# kam1 = Itkampaniya(10 , 20)
+# print(kam1.info())
+     
+        
