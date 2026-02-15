@@ -453,5 +453,19 @@
 #         return f"ishchilar soni : {self.ishchi}\n Kampyuter soni : {self.ishchi}"
 # kam1 = Itkampaniya(10 , 20)
 # print(kam1.info())
-     
+# 37-misol
+# class mahsulot : 
+#     def __init__(self , sroq , nomi , malumot ):
+#         self.sroq = sroq 
+#         self.nomi = nomi 
+#         self.malumot = malumot
+# class ichimlik (mahsulot):
+#     def __init__(self, sroq, nomi, malumot , qadoq):
+#         self.qadoq = qadoq
+#         super().__init__(sroq, nomi, malumot) 
+#     def info(self):
+#         return f"Yaroqlilik muddati : {self.sroq}\n Nomi : {self.nomi}\n U haqida malumot : {self.malumot}\n Qadoqlangami ? {self.qadoq}"
+# market = ichimlik("05.06.2026 gacha" , "CocaCola" , "gazlangan mazali ichimlik" , "ha" )
+# print(market.info())
+
         
