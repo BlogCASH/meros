@@ -529,3 +529,18 @@
 #         return f"Ismi : {self.ism}\n Yoshi : {self.yosh}\n Yashash manzili : {self.manzil}\n diplom bor/yo'q : {self.diplom}"
 # shaxs = shifokor("Doctor" , 35 , "Yakkachuqur MFY" , "bor" )
 # print(shaxs.info())
+# 42-misol
+# class kitob:
+#     def __init__(self , nomi , mavzusi , turi ):
+#         self.nom = nomi
+#         self.mavzusi =mavzusi
+#         self.turi = turi
+# class audikitob(kitob):
+#     def __init__(self, nomi, mavzusi, turi , dizayni , ovozi):
+#         self.dizayn = dizayni
+#         self.ovoz = ovozi
+#         super().__init__(nomi, mavzusi, turi)
+#     def info(self):
+#         return f"Nomi : {self.nom}\nTuri : {self.turi}\n dizayni : {self.dizayn}\n mavzusi : {self.mavzusi}\n ovoz sozlamasi : {self.ovoz}"
+# savdo = audikitob("Biznes boshlash 202 loyiha" , "badiy" , "oq jigarrang " , "Biznes boshlash" , "mayin ")
+# print(savdo.info())
