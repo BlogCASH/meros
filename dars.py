@@ -515,3 +515,17 @@
 #         return f"Ism : {self.ism}\n familya : {self.familya}\n yosh : {self.yosh}\n shaxsini  tastiqlovchi hujjat : {self.pasport}\n Diplom : {self.diplom}"
 # oqtuvchi1 = oqtuvchi("Sulaymon" , "Axmedov" , 16 , "Guvohnoma" , "Bakalavur")
 # print(oqtuvchi1.info())
+# 41-misol
+# class inson :
+#     def __init__(self , ismi , yoshi , manzili):
+#         self.ism = ismi 
+#         self.yosh = yoshi
+#         self.manzil = manzili
+# class shifokor(inson):
+#     def __init__(self, ismi, yoshi, manzili , diplomi):
+#         self.diplom = diplomi
+#         super().__init__(ismi, yoshi, manzili) 
+#     def info (self):
+#         return f"Ismi : {self.ism}\n Yoshi : {self.yosh}\n Yashash manzili : {self.manzil}\n diplom bor/yo'q : {self.diplom}"
+# shaxs = shifokor("Doctor" , 35 , "Yakkachuqur MFY" , "bor" )
+# print(shaxs.info())
