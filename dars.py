@@ -481,4 +481,16 @@
 #         return f"Tok olishi : {self.tok} W \n Nomi : {self.nomi} \n Ekran kattaligi : {self.ekran}\n TV/smart TV : {self.smart}"
 # moslama = televizor(220 , "Roison" , 43 , "smart TV")
 # print(moslama.info())
-        
+# 39-misol
+# class auto :
+#     def __init__(self , rang , mator):
+#         self.rang = rang
+#         self.mator = mator 
+# class elektomabil(auto):
+#     def __init__(self, rang, mator , zaryadka):
+#         self.zaryad = zaryadka
+#         super().__init__(rang, mator)
+#     def info(self):
+#         return f"mashina rangi : {self.rang}\n mashina mator hajmi : {self.mator}\n zaryadka necha km ga yetadi : {self.zaryad}"
+# auto1 = elektomabil("Qora" , 3 , 17.000)
+# print(auto1.info())
