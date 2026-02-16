@@ -467,5 +467,18 @@
 #         return f"Yaroqlilik muddati : {self.sroq}\n Nomi : {self.nomi}\n U haqida malumot : {self.malumot}\n Qadoqlangami ? {self.qadoq}"
 # market = ichimlik("05.06.2026 gacha" , "CocaCola" , "gazlangan mazali ichimlik" , "ha" )
 # print(market.info())
-
+# 38-misol
+# class uskuna :
+#     def __init__(self , tok , nomi ):
+#         self.nomi = nomi
+#         self.tok = tok
+# class televizor(uskuna):
+#     def __init__(self, tok, nomi , ekran_kattaligi , smart):
+#         self.ekran = ekran_kattaligi
+#         self.smart = smart
+#         super().__init__(tok, nomi)
+#     def info(self):
+#         return f"Tok olishi : {self.tok} W \n Nomi : {self.nomi} \n Ekran kattaligi : {self.ekran}\n TV/smart TV : {self.smart}"
+# moslama = televizor(220 , "Roison" , 43 , "smart TV")
+# print(moslama.info())
         
