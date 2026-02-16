@@ -494,3 +494,24 @@
 #         return f"mashina rangi : {self.rang}\n mashina mator hajmi : {self.mator}\n zaryadka necha km ga yetadi : {self.zaryad}"
 # auto1 = elektomabil("Qora" , 3 , 17.000)
 # print(auto1.info())
+# 40-misol
+# class shaxs :
+#     def __init__(self , ism , familya , yosh , pasport):
+#         self.ism = ism
+#         self.familya = familya
+#         self.yosh = yosh 
+#         self.pasport =pasport
+# class talaba(shaxs):
+#     def __init__(self, ism, familya, yosh, pasport , oqish_joyi , fan , oqish_turi):
+#         self.oqish_turi = oqish_turi
+#         self.fan = fan
+#         self.oqish = oqish_joyi
+#         super().__init__(ism, familya, yosh, pasport)
+# class oqtuvchi(shaxs):
+#     def __init__(self, ism, familya, yosh, pasport , diplom ):
+#         self.diplom = diplom
+#         super().__init__(ism, familya, yosh, pasport)
+#     def info(self):
+#         return f"Ism : {self.ism}\n familya : {self.familya}\n yosh : {self.yosh}\n shaxsini  tastiqlovchi hujjat : {self.pasport}\n Diplom : {self.diplom}"
+# oqtuvchi1 = oqtuvchi("Sulaymon" , "Axmedov" , 16 , "Guvohnoma" , "Bakalavur")
+# print(oqtuvchi1.info())
