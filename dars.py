@@ -579,3 +579,17 @@
 # game = baskedbolchi( "basketboll" , 45 , "butsi , shortik , futbolka" , 6)
 # sport = futbolchi("Futbol" , "1:30" , "butsi , shortik , futbolka" , 12 )
 # print(sport.info() , game.get_info())
+# 45-misol
+# class kampaniya : 
+#     def __init__(self, ishchi):
+#         self.ishchi = ishchi
+# class Raxbar (kampaniya):
+#     def __init__(self, ishchi , kamyuter , lavozim , ismi):
+#         self.lavozim = lavozim
+#         self.ism = ismi
+#         self.kampyuter = kamyuter
+#         super().__init__(ishchi)
+#     def info(self):
+#         return f"ishchilar soni : {self.ishchi}\n Kampyuter soni : {self.ishchi}\n Raxbar ismi : {self.ism}\n lavozimi : {self.lavozim}"
+# kam1 = Raxbar(10 , 20 , "Sulaymon" , "rahbar" )
+# print(kam1.info())
