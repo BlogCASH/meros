@@ -544,3 +544,17 @@
 #         return f"Nomi : {self.nom}\nTuri : {self.turi}\n dizayni : {self.dizayn}\n mavzusi : {self.mavzusi}\n ovoz sozlamasi : {self.ovoz}"
 # savdo = audikitob("Biznes boshlash 202 loyiha" , "badiy" , "oq jigarrang " , "Biznes boshlash" , "mayin ")
 # print(savdo.info())
+# 43-misol
+# class Qurilma :
+#     def __init__(self , tok , nomi ):
+#         self.nomi = nomi
+#         self.tok = tok
+# class televizor(Qurilma):
+#     def __init__(self, tok, nomi , ekran_kattaligi , smart):
+#         self.ekran = ekran_kattaligi
+#         self.smart = smart
+#         super().__init__(tok, nomi)
+#     def info(self):
+#         return f"Tok olishi : {self.tok} W \n Nomi : {self.nomi} \n Ekran sifati : {self.ekran}Full HDc\n smart watch/ watch: {self.smart}"
+# smartwatch = televizor("batareka" , "Iwatch" , 1080 , "smart ")
+#
