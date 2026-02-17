@@ -606,3 +606,26 @@
 #         return f"ot nomi : {self.nom}\n ot ranggi : {self.rang}\n ot tezligi : {self.tez}"
 # ot1 = Ot("qorabayr" , "Qorali oq" , "juda tez")
 # print(ot1.info())
+# 47-misol
+# class mashina :
+#     def __init__(self , rang , probek , yil , madeli):
+#         self.rang = rang 
+#         self.probek = probek
+#         self.yil = yil
+#         self.model = madeli
+# class YLmashina(mashina):
+#     def __init__(self, rang, probek, yil, madeli , odam_sigimi):
+#         super().__init__(rang, probek, yil, madeli)
+#         self.sigim = odam_sigimi
+        
+#     def get_info(self):
+#         return f"Mashina rangi : {self.rang}\n Mashina bosib o'tgan yo'l : {self.probek}\n Mashina ishlab chiqarilgan yil : {self.yil}\n Mashina nomi : {self.model}\n odam sig'imi : {self.sigim}\n"
+# class YUKmashina(mashina):
+#     def __init__(self, rang, probek, yil, madeli , yuk_sigimi):
+#         self.yuk = yuk_sigimi
+#         super().__init__(rang, probek, yil, madeli)
+#     def info(self):
+#          return f"Mashina rangi : {self.rang}\n Mashina bosib o'tgan yo'l : {self.probek}\n Mashina ishlab chiqarilgan yil : {self.yil}\n Mashina nomi : {self.model}\n Yuk sig'imi : {self.yuk} T"
+# auto = YUKmashina("Oq" , 120000 , 2023 , "labo" , 1.5 )
+# auto2 = YLmashina("qora" , 10000 , 2025 , "KIA K5" , 4)
+# print(auto.info() , auto2.get_info())
