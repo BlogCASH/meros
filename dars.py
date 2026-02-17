@@ -593,3 +593,16 @@
 #         return f"ishchilar soni : {self.ishchi}\n Kampyuter soni : {self.ishchi}\n Raxbar ismi : {self.ism}\n lavozimi : {self.lavozim}"
 # kam1 = Raxbar(10 , 20 , "Sulaymon" , "rahbar" )
 # print(kam1.info())
+# 46-misol
+# class hayvon :
+#     def __init__(self , nomi , rang):
+#         self.nom = nomi
+#         self.rang = rang
+# class Ot (hayvon):
+#     def __init__(self, nomi, rang , tezlik):
+#         self.tez = tezlik
+#         super().__init__(nomi, rang)
+#     def info(self):
+#         return f"ot nomi : {self.nom}\n ot ranggi : {self.rang}\n ot tezligi : {self.tez}"
+# ot1 = Ot("qorabayr" , "Qorali oq" , "juda tez")
+# print(ot1.info())
