@@ -557,4 +557,25 @@
 #     def info(self):
 #         return f"Tok olishi : {self.tok} W \n Nomi : {self.nomi} \n Ekran sifati : {self.ekran}Full HDc\n smart watch/ watch: {self.smart}"
 # smartwatch = televizor("batareka" , "Iwatch" , 1080 , "smart ")
-#
+#44-misol
+# class sportchi :
+#     def __init__(self , sport_turi , vaxti ):
+#         self.turi = sport_turi
+#         self.vaxt = vaxti
+# class futbolchi(sportchi):
+#     def __init__(self, sport_turi, vaxti , formasi , team):
+#         self.team = team
+#         self.forma = formasi
+#         super().__init__(sport_turi, vaxti)
+#     def info (self):
+#         return f"Sport turi : {self.turi}\n Trenirovka vaqti : {self.vaxt}S\n formasi : {self.forma}\n jamoasi soni : {self.team}ta"
+# class baskedbolchi(sportchi):
+#     def __init__(self, sport_turi, vaxti , formasi , team):
+#         self.team = team
+#         self.forma = formasi
+#         super().__init__(sport_turi, vaxti)
+#     def get_info (self):
+#         return f"Sport turi : {self.turi}\n Trenirovka vaqti : {self.vaxt}min\n formasi : {self.forma}\n jamoasi soni : {self.team}ta"
+# game = baskedbolchi( "basketboll" , 45 , "butsi , shortik , futbolka" , 6)
+# sport = futbolchi("Futbol" , "1:30" , "butsi , shortik , futbolka" , 12 )
+# print(sport.info() , game.get_info())
