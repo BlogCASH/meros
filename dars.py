@@ -629,3 +629,11 @@
 # auto = YUKmashina("Oq" , 120000 , 2023 , "labo" , 1.5 )
 # auto2 = YLmashina("qora" , 10000 , 2025 , "KIA K5" , 4)
 # print(auto.info() , auto2.get_info())
+# # 48-misol 
+# class shaxs :
+#     def __init__(self , Ism , yosh , hujjat):
+#         self.ism = Ism
+#         self.yosh = yosh
+#         self.hujjat = hujjat
+#     def info(self):
+#         return f"Shaxs ismi : {self.ism}\n Yoshi : {self.yosh}\n Shaxsini tastiqlovchi hujjat : {}"
